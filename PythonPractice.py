@@ -9,15 +9,18 @@ name = "Zach"
 #print("hello {}".format(name))
 
 
-
-
+global x
+x = 50
+def change():
+    global x
+    x = 50
 #print(x)
 
 def LessThanGreaterThan(num):
 
 
     num = int(input("enter a number "))
-    x = 50
+    num = int(input("enter a number "))
     if num > x:
         print("{} is greater than 50".format(num))
 
@@ -29,7 +32,7 @@ def LessThanGreaterThan(num):
         print(" ")
     else:
             print("yay {} is your number".format(num))
-LessThanGreaterThan(10)
+LessThanGreaterThan(x)
 
 
 
@@ -48,7 +51,7 @@ LessThanGreaterThan(10)
 #5. Create a list and write a program that prints each individual
 #element to the console.
 
-favoriteFoods = ["donuts", "ice cream", "sushi", "pizza"]
+#favoriteFoods = ["donuts", "ice cream", "sushi", "pizza"]
 
 #print(favoriteFoods[2])
 #for food in favoriteFoods:
