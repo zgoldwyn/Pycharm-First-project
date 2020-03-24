@@ -10,22 +10,27 @@ name = "Zach"
 
 
 
-x = 10
+
 #print(x)
 
-#def LessThanGreaterThan(num):
-    #print(num)
+def LessThanGreaterThan(num):
 
-  #  num = int(input("enter a number"))
-  #  print(num)
-  #  if num > 10:
-   #     print("{} is greater than 10".format(num))
 
-    #if num < 10:
-       # print("{} is less than 10".format(num))
-    #if num == 10:
-     #   print("the number is 10")
-#LessThanGreaterThan(10)
+    num = int(input("enter a number "))
+    x = 50
+    if num > x:
+        print("{} is greater than 50".format(num))
+
+    if num < x:
+        print("{} is less than 50".format(num))
+    if num == x:
+        print("the number is 50")
+    if num == x:
+        print(" ")
+    else:
+            print("yay {} is your number".format(num))
+LessThanGreaterThan(10)
+
 
 
 
@@ -46,8 +51,8 @@ x = 10
 favoriteFoods = ["donuts", "ice cream", "sushi", "pizza"]
 
 #print(favoriteFoods[2])
-for food in favoriteFoods:
-    print(food)
+#for food in favoriteFoods:
+ #   print(food)
 
 
 
@@ -56,10 +61,10 @@ for food in favoriteFoods:
 #be random or simply put in the numbers 0-9 or 1-10 in
 #ascending order.
 
-myemptylist = []
-for number in range(11):
-    print(number)
-myemptylist.append(number)
+#myemptylist = []
+#for number in range(11):
+  #  print(number)
+#myemptylist.append(number)
 
 
 #7. Write a program that takes a number as user input and tells
